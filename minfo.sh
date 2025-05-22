@@ -9,5 +9,5 @@ elif [ "$1" = "disk" ]; then
 elif [ "$1" = "all" ]; then
     hostname && uptime -p && df -h
 else 
-    echo "Uso: ./minfo.sh {hostname|uptime|disk|all}"
+    echo " Uso: ./minfo.sh {hostname|uptime|disk|all} "
 fi
